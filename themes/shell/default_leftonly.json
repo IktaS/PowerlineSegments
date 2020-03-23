@@ -29,6 +29,14 @@
 			{
 				"function": "powerline.segments.shell.last_pipe_status",
 				"priority": 10
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"priority": 40
+			},
+			{
+				"function": "powerline.segments.common.net.internal_ip",
+				"priority": 10
 			}
 		]
 	}
