@@ -2,9 +2,13 @@
 	"segments": {
 		"left": [
 			{
+				"function": "powerline.segments.common.net.internal_ip",
+				"priority": 10
+			},
+			{
 				"function": "powerline.segments.common.time.date",
 				"priority": 40,
-				"args": { "format": "%x | %X" }
+				"args": { "format": "%x | %H:%M" }
 			},
 			{
 				"function": "powerline.segments.common.net.hostname",
@@ -17,10 +21,6 @@
 			{
 				"function": "powerline.segments.common.env.virtualenv",
 				"priority": 50
-			},
-			{
-				"function": "powerline.segments.common.net.internal_ip",
-				"priority": 10
 			},
 			{
 				"function": "powerline.segments.common.vcs.branch",
